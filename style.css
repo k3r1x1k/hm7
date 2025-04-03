@@ -1,0 +1,13 @@
+:root {
+    --link-4-5-color: #ff0000;
+    --font-size-p: 24px;
+}
+
+a[href="https://www.youtube.com/"],
+a[ href="https://validator.w3.org/"] {
+    color: var(--link-4-5-color);
+}
+
+ul+p{
+    font-size: var(--font-size-p);
+}
